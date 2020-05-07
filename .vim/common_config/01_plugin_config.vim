@@ -6,7 +6,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdcommenter'
   let g:NERDDefaultAlign = 'left'
 
-" Plugins requiring no additional configuration or keymaps
+  " Plugins requiring no additional configuration or keymaps
+  "Plug 'jiangmiao/auto-pairsminimalist'
+  Plug 'stephpy/vim-yaml'
+  Plug 'hashivim/vim-terraform'
+  Plug 'gryf/pylint-vim'
+  Plug 'bigfish/vim-eslint'
+  Plug 'Raimondi/delimitMate'
+  Plug 'morhetz/gruvbox'
+  Plug 'b4b4r07/vim-hcl'
   Plug 'tpope/vim-endwise'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rake'
@@ -45,7 +53,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline-themes'
   let g:airline#extensions#tabline#enabled = 1
   let g:airline_powerline_fonts = 1
-  let g:airline_theme='minimalist'
+  let g:airline_theme='hybrid'
 
 " Easy motion config
   Plug 'easymotion/vim-easymotion'
