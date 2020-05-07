@@ -1,5 +1,4 @@
-# KMKLabs Vim Config
-Konfigurasi VIM untuk kebutuhan KMKLabs Engineer
+# Mataberat Vim Config
 
 ## Pre-requisites
 
