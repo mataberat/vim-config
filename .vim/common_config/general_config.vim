@@ -1,3 +1,10 @@
+  set cursorline
+  set ruler
+  set shiftwidth=4
+  set tabstop=4
+  set backspace=2
+  set undofile
+
 " required for several plugins
   set nocompatible
 
@@ -6,6 +13,8 @@
 
 " default color scheme
   set t_Co=256
+  colorscheme hybrid_material
+  set background=dark
 
 " don't wrap long lines
   set nowrap
@@ -115,3 +124,5 @@
 
 " *.es6 is javascript file
   au BufRead,BufNewFile *.es6 set filetype=javascript
+
+  let NERDTreeShowHidden=1
