@@ -1,3 +1,8 @@
+" Jump buffer
+  map bp :bp<cr>
+  map bd :bd<cr>
+  map bn :bn<cr>
+
 " easy wrap toggling
   nmap <Leader>w :set wrap!<cr>
   nmap <Leader>W :set nowrap<cr>
