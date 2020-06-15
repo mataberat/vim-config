@@ -13,8 +13,9 @@
 
 " default color scheme
   set t_Co=256
-  colorscheme hybrid_material
-  set background=dark
+  colorscheme snazzy
+  "colorscheme hybrid_material
+  "set background=dark
 
 " don't wrap long lines
   set nowrap
