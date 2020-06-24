@@ -3,6 +3,9 @@
   map bd :bd<cr>
   map bn :bn<cr>
 
+" easy save file
+  nmap <Leader>s :w<cr>
+
 " easy wrap toggling
   nmap <Leader>w :set wrap!<cr>
   nmap <Leader>W :set nowrap<cr>
