@@ -8,10 +8,10 @@ call plug#begin('~/.vim/plugged')
 
   " Plugins requiring no additional configuration or keymaps
   "Plug 'jiangmiao/auto-pairsminimalist'
-  Plug 'mataberat/happy_hacking.vim'
+  " Plug 'mataberat/happy_hacking.vim'
   " Plug 'rust-lang/rust'
   Plug 'scrooloose/syntastic'
-  Plug 'connorholyday/vim-snazzy'
+  "Plug 'connorholyday/vim-snazzy'
   Plug 'stephpy/vim-yaml'
   Plug 'hashivim/vim-terraform'
   Plug 'gryf/pylint-vim'
