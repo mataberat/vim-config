@@ -4,7 +4,7 @@
   set cursorline
   set ruler
   set shiftwidth=4
-  set tabstop=4
+  set tabstop=2
   set backspace=2
   set undofile
 
