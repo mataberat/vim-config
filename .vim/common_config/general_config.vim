@@ -16,10 +16,8 @@
 
 " default color scheme
   set t_Co=256
-  "colorscheme snazzy
-  "color happy_hacking
-  colorscheme hybrid_material
-  set background=dark
+  colorscheme snazzy
+"  set background=dark
 
 " don't wrap long lines
   set nowrap
