@@ -1,3 +1,6 @@
+" NERDTreeToggle
+  map ntt :NERDTreeToggle
+
 " Jump buffer
   map bp :bp<cr>
   map bd :bd<cr>
