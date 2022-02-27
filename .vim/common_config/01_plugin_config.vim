@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
   let g:NERDDefaultAlign = 'left'
 
   " Plugins requiring no additional configuration or keymaps
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'scrooloose/syntastic'
   Plug 'connorholyday/vim-snazzy'
   Plug 'stephpy/vim-yaml'
